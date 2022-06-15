@@ -1,12 +1,11 @@
 {
   "name": "vite-plugin-svelte-svg-loader",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.1.5",
   "description": "",
   "author": "lj <fourfishxiake@gmail.com>",
   "license": "MIT",
-
   "homepage": "https://github.com/fEyebrow/vite-plugin-svelte-svg-loader#readme",
   "repository": {
     "type": "git",
