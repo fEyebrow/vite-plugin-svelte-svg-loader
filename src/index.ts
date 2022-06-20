@@ -11,7 +11,7 @@ interface Options {
 }
 
 export default function (options: Options = {}): Plugin {
-  const { svgoConfig, svgo, defaultImport } = options
+  const { svgoConfig = {}, svgo = true, defaultImport = 'component' } = options
   let viteConfig: ResolvedConfig | null = null
   const svgRegex = /\.svg(\?(raw|component))?$/
 
