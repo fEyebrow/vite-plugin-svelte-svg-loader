@@ -30,9 +30,6 @@ export default function (options: Options = {}): Plugin {
 
       const importType = query || defaultImport
 
-      if (importType === 'url')
-        return
-
       let svg = await fs.readFile(path, 'utf8')
 
       if (importType === 'raw')

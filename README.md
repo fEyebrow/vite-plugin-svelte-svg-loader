@@ -9,6 +9,7 @@ vite 2.x plugin to load SVG files as Svelte Components
 npm i -D vite-plugin-svelte-svg-loader
 ```
 
+vite.config.ts
 ```
 import { defineConfig } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
@@ -21,6 +22,24 @@ export default defineConfig({
     // defaultImport?: 'url' | 'raw' | 'component';
   })],
 })
+```
+
+types/index.d.ts
+```
+declare module '*.svg?component' {
+  import Svelte from 'svelte'
+  export default Svelte.SvelteComponent
+}
+
+declare module '*.svg?url' {
+  const src: string
+  export default src
+}
+
+declare module '*.svg?raw' {
+  const src: string
+  export default src
+}
 ```
 
 ## Usage
