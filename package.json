@@ -65,5 +65,9 @@
   "dependencies": {
     "@types/svgo": "^2.6.4",
     "svgo": "^2.8.0"
+  },
+  "peerDependencies": {
+    "svelte": "^3.53.1",
+    "vite": "^3.2.3"
   }
 }
