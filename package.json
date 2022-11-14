@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.7",
   "packageManager": "pnpm@7.1.5",
-  "description": "vite 2.x plugin to load SVG files as Svelte Components",
+  "description": "vite 3.x plugin to load SVG files as Svelte Components",
   "author": "lj <fourfishxiake@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/fEyebrow/vite-plugin-svelte-svg-loader#readme",

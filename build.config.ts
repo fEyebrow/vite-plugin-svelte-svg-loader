@@ -11,5 +11,8 @@ export default defineBuildConfig({
   },
   externals: [
     'vite',
+    'svelte',
+    'svgo',
   ],
+  failOnWarn: false,
 })
