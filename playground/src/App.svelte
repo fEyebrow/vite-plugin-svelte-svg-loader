@@ -1,26 +1,18 @@
 <script lang="ts">
-  import logo from './assets/svelte.png'
-  import Counter from './lib/Counter.svelte'
   import SvelteSvg from './assets/svelte.svg?component'
+  import SvelteUrl from './assets/svelte.svg?url'
+  import SvelteData from './assets/svelte.svg?raw'
 
+  console.log(SvelteUrl, SvelteData)
 </script>
 
 <main>
-  <img src={logo} alt="Svelte Logo" />
-  <h1>Hello Typescript!</h1>
-
   <SvelteSvg width={100} height={150} />
-
-  <Counter />
-
   <p>
-    Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-    apps.
+    {SvelteUrl}
   </p>
-
   <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
-    the officially supported framework, also powered by Vite!
+    {SvelteData}
   </p>
 </main>
 
