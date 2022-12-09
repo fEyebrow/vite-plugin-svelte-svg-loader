@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-svelte-svg-loader",
   "type": "module",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "packageManager": "pnpm@7.1.5",
   "description": "vite 3.x plugin to load SVG files as Svelte Components",
   "author": "lj <fourfishxiake@gmail.com>",
