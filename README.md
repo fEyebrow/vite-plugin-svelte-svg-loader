@@ -1,3 +1,10 @@
+# Alternative
+[Unocss](https://github.com/unocss/unocss) is a better choice.
+
+Import SVGs in the template is not a good choice: https://twitter.com/_developit/status/1382838799420514317.
+
+With unocss, you can use svg through css. you can learn more through this [icons-in-pure-css](https://antfu.me/posts/icons-in-pure-css).
+
 # vite-plugin-svelte-svg-loader
 
 [![NPM version](https://img.shields.io/npm/v/vite-plugin-svelte-svg-loader?color=a1b858&label=)](https://www.npmjs.com/package/vite-plugin-svelte-svg-loader)
